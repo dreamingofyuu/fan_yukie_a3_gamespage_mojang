@@ -3,7 +3,7 @@
 <style>
   /* General styles for all pages */
 body {
-  font-family: Garamond, sans-serif;
+  font-family: Courier, monospace;
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
@@ -47,20 +47,30 @@ header {
 }
 
 .games h1 {
+  font-family: Lucida Console, monospace;
   text-align: center;
   margin-bottom: 30px;
 }
   
 .games h2 {
-  text-align: left;
+  font-family: Lucida Console, monospace;
+  text-align: center;
   margin-bottom: 30px;
 }
 
+/* Img settings */
 .game img {
   width: 100px;
   height: auto;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+  
 .game p {
   margin: 100px;
 }
@@ -130,7 +140,7 @@ header {
     <!-- Mincraft -->
     <section id="Minecraft" class="games">
       <h2>Minecraft</h2>
-      <img src="Minecraft_Bedrock_icon.png" alt="Minecraft" width="auto" height="300">
+      <img src="Minecraft_Bedrock_icon.png" alt="Minecraft" class="center">
       <p>Platform Played on: PC</p>
       <p>Number of Months played: 5</p>
       <p>Money spent: $0</p>
